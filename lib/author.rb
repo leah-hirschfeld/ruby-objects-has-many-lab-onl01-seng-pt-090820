@@ -30,7 +30,7 @@ class Author
   end
   
   def author_name
-    binding pry
+    binding.pry
     author.post
   end
   
