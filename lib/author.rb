@@ -6,10 +6,6 @@ class Author
   def initialize(name)
     @name = name
   end
-
-  def title
-    @title = title
-  end
   
   def author_name
     @name = name
