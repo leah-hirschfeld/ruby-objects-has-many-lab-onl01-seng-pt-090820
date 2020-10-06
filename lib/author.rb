@@ -27,8 +27,4 @@ class Author
     Post.all.count
   end
   
-  def self.author_name
-    self.author
-  end
-  
 end
