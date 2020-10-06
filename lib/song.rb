@@ -16,7 +16,8 @@ class Song
     if self.artist.name == self.artist.name
       self.artist.name 
     else
-    binding.pry
+    "nil"
+  end
   end
   
 end
