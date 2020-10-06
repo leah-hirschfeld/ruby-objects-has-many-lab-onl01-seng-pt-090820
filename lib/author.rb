@@ -4,10 +4,6 @@ class Author
   def initialize(name)
     @name = name
   end
-  
-  def author_name
-    @name = name
-  end
 
   def add_post(name)
     name.author = self
