@@ -1,3 +1,5 @@
+require 'pry'
+
 class Author
   attr_accessor :name, :title, :post
  
@@ -32,6 +34,7 @@ class Author
   end
   
   def author_name
+    binding pry
     author.post
   end
   
