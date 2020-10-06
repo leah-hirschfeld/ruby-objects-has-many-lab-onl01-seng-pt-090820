@@ -31,8 +31,8 @@ class Author
     Post.all.count
   end
   
-  def author_name(author = nil)
-    Post.author
+  def author_name
+    author.post
   end
   
 end
