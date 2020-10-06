@@ -12,7 +12,7 @@ class Song
     @@all
   end
   
-  def artist_name
+  def artist_name(name == nil)
     if self.artist.name == ""
       puts "nil"
     else
