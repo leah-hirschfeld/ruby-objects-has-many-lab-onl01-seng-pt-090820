@@ -16,7 +16,7 @@ class Song
     if self.artist.name == self.artist.name
       self.artist.name 
     else
-    "nil"
+      puts "nil"
   end
   end
   
