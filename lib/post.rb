@@ -10,4 +10,8 @@ class Post
   def self.all
     @@all
   end
+  
+   def self.author_name
+    self.name
+  end
 end
